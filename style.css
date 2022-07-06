@@ -23,7 +23,49 @@ html {
   background-color: #ec4444;
   border-radius: 50%;
 }
-.navbar i {
+.navbar-link i {
   color: #fff;
   font-size:2rem;
+}
+.navbar-btn{
+    color: #fff;
+    font-size: 3rem;
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #12c095;
+    border-radius: 50%;
+    cursor: pointer;
+}
+/* NOTE:nth-child(n)	p:nth-child(2)	Selects every <p> element that is the second child of its parent */
+
+/* TODO:Making icon resizing according to the navbar */
+.navbar-link{
+    position: absolute;
+}
+
+.navbar-link:nth-child(1) {
+  top: 2rem;
+}
+.navbar-link:nth-child(2) {
+  top: 5rem;
+  right: 3rem;
+}
+.navbar-link:nth-child(3) {
+  bottom: 5rem;
+  right: 3rem;
+}
+.navbar-link:nth-child(4) {
+  bottom: 2rem;
+}
+.navbar-link:nth-child(5) {
+  bottom: 5rem;
+  left: 3rem;
+}
+.navbar-link:nth-child(6) {
+  top: 5rem;
+  left: 3rem;
 }
